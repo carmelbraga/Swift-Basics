@@ -35,23 +35,23 @@ if(heartRate >= 40 && heartRate < 80){
 }
 
 if(deposits >= 100000000){
-    print("You are exceendingly wewalthy.")
+    print("You are exceendingly wealthy.")
 }else{
     print("Sorry you are so poor.")
 }
 
 var force:Float = mass * acceleration
 
-print(force, "=")
+print("force =", force)
 
-print(distance, "is the distance")
+print(distance, "is the distance.")
 
 if(lost == true && expensive == true){
-    print("I am really sorry! I will get teh manager.")
+    print("I am really sorry! I will get the manager.")
 }
 
 if(lost == true && expensive == false){
-    print("Here is a coupon for 10% off")
+    print("Here is a coupon for 10% off.")
 }
 
 switch choice{
@@ -67,7 +67,7 @@ switch choice{
 
 print(integral, "is an integral.")
 
-for i in 5..<10 {
+for i in 5...10 {
     print("i =", i)
 }
 
@@ -78,4 +78,4 @@ while(age < 6){
     age += 1
 }
 
-print(greeting," ", name)
+print(greeting,"",name)
